@@ -23,10 +23,11 @@ class ClientPrefs {
 	public static var speed:Float = 2;
 	public static var noteSize:Float = 0.7;
 	public static var scroll:Bool = false;
-	public static var arrowHSV:Array<Array<Int>> = [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]];
+	public static var arrowHSV:Array<Array<Int>> = [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]];
 	public static var imagesPersist:Bool = false;
 	public static var ghostTapping:Bool = true;
 	public static var hideTime:Bool = false;
+	public static var ekInput:Bool = false
 
 	//Every key has two binds, these binds are defined on defaultKeys! If you want your control to be changeable, you have to add it on ControlsSubState (inside OptionsState.hx)'s list
 	public static var keyBinds:Map<String, Dynamic> = new Map<String, Dynamic>();
@@ -48,7 +49,24 @@ class ClientPrefs {
 		keyBinds.set('back', [BACKSPACE, ESCAPE]);
 		keyBinds.set('pause', [ENTER, ESCAPE]);
 		keyBinds.set('reset', [R, NONE]);
+		
+		keyBinds.set('6k0', [S, W]);
+		keyBinds.set('6k1', [D, E]);
+		keyBinds.set('6k2', [F, R]);
+		keyBinds.set('6k3', [SPACE, G]);
+		keyBinds.set('6k4', [J, U]);
+		keyBinds.set('6k5', [K, I]);
+		keyBinds.set('6k6', [L, O]);
 
+		keyBinds.set('9k0', [A, Q]);
+		keyBinds.set('9k1', [S, W]);
+		keyBinds.set('9k2', [D, E]);
+		keyBinds.set('9k3', [F, R]);
+		keyBinds.set('9k4', [SPACE, G]);
+		keyBinds.set('9k5', [H, Y]);
+		keyBinds.set('9k6', [J, U]);
+		keyBinds.set('9k7', [K, I]);
+		keyBinds.set('9k8', [L, O]);
 
 		// Don't delete this
 		defaultKeys = keyBinds.copy();
@@ -71,12 +89,13 @@ class ClientPrefs {
 		FlxG.save.data.camZooms = camZooms;
 		FlxG.save.data.noteOffset = noteOffset;
 		FlxG.save.data.hideHud = hideHud;
-		FlxG.save.data.arrowHSV = arrowHSV;
+		FlxG.save.data.newarrowHSV = arrowHSV;
 		FlxG.save.data.imagesPersist = imagesPersist;
 		FlxG.save.data.ghostTapping = ghostTapping;
 		FlxG.save.data.hideTime = hideTime;
 		FlxG.save.data.achievementsMap = Achievements.achievementsMap;
 		FlxG.save.data.henchmenDeath = Achievements.henchmenDeath;
+		FlxG.save.data.ekInput = ekInput;
 		FlxG.save.flush();
 
 		var save:FlxSave = new FlxSave();
@@ -127,6 +146,9 @@ class ClientPrefs {
 		if(FlxG.save.data.violence != null) {
 			violence = FlxG.save.data.violence;
 		}*/
+		if (FlxG.save.data.ekInput != null)
+			ekInput = FlxG.save.data.ekInput;
+		
 		if(FlxG.save.data.camZooms != null) {
 			camZooms = FlxG.save.data.camZooms;
 		}
@@ -136,8 +158,8 @@ class ClientPrefs {
 		if(FlxG.save.data.noteOffset != null) {
 			noteOffset = FlxG.save.data.noteOffset;
 		}
-		if(FlxG.save.data.arrowHSV != null) {
-			arrowHSV = FlxG.save.data.arrowHSV;
+		if(FlxG.save.data.newarrowHSV != null) {
+			arrowHSV = FlxG.save.data.newarrowHSV;
 		}
 		if(FlxG.save.data.speed != null) {
 			speed = FlxG.save.data.speed;
