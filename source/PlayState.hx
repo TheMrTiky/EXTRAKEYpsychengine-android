@@ -2493,7 +2493,6 @@ class PlayState extends MusicBeatState
 						}
 
 						var animToPlay:String = '';
-						switch (Math.abs(daNote.noteData))
 						animToPlay = "sing" + sDir[mania][Std.int(Math.abs(daNote.noteData))];
 						if(daNote.noteType == 'GF Sing') {
 							gf.playAnim(animToPlay + altAnim, true);
