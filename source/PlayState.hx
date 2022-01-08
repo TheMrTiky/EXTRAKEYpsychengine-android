@@ -3543,7 +3543,6 @@ class PlayState extends MusicBeatState
 			notes.forEachAlive(function(daNote:Note)
 			{
 				// hold notspr.centerOffsets();
-				functions
 				if (daNote.isSustainNote && sustainsHeld[daNote.noteData] && daNote.canBeHit
 				&& daNote.mustPress && !daNote.tooLate && !daNote.wasGoodHit) {
 					goodNoteHit(daNote);
