@@ -50,6 +50,10 @@ import StageData;
 import FunkinLua;
 import DialogueBoxPsych;
 
+import openfl.ui.Keyboard; //fuck controls.hx - maybe this breaks the input in mobile, someone can check this please
+import openfl.events.KeyboardEvent;
+import flixel.input.keyboard.FlxKey;
+
 #if sys
 import Sys;
 import sys.FileSystem;
