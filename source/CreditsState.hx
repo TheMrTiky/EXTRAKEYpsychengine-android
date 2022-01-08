@@ -48,6 +48,12 @@ class CreditsState extends MusicBeatState
 		var pisspoop = [ //Name - Icon name - Description - Link - BG Color
 			['Psych Engine Android Port'],
 			['M.A. Jigsaw',		    'majigsaw',		    'Main Coder of The Port',	 'https://www.youtube.com/channel/UC2Sk7vtPzOvbVzdVTWrribQ',	'0xFFC30085'],
+			['Extra Keys Android Port'],
+			['MarioMaster',		    'mariomaster',		    'Port EK to Psych Engine Android',	 'https://www.youtube.com/channel/UC2Sk7vtPzOvbVzdVTWrribQ',	'0xFFC30085'],
+			[''],
+			['Extra Keys Port'],
+		        ['TheZoroForce240', 'zoro', 'Ported the mod to Psych Engine', 'https://www.youtube.com/channel/UCjXs9mcE531CrmaQrf0OkOw', '0xFF0056FF'],
+		        ['srPerez', 'perez', 'Original code for extra keys, arrow designs and colors', 'https://twitter.com/NewSrPerez', '0xFFFF9E00'],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	'0xFFFFDD33'],
 			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',				'https://twitter.com/river_oaken',		'0xFFC30085'],
