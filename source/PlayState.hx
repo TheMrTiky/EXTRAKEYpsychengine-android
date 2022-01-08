@@ -50,10 +50,6 @@ import StageData;
 import FunkinLua;
 import DialogueBoxPsych;
 
-import openfl.ui.Keyboard; //fuck controls.hx
-import openfl.events.KeyboardEvent;
-import flixel.input.keyboard.FlxKey;
-
 #if sys
 import Sys;
 import sys.FileSystem;
