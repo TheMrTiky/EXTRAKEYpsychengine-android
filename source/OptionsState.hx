@@ -765,7 +765,7 @@ class PreferencesSubstate extends MusicBeatSubstate
 		'Hide Song Length',
 		'Flashing Lights',
 		'Camera Zooms',
-		'EK Input'
+		'EK Input',
 		'FPS Counter'
 
 	];
