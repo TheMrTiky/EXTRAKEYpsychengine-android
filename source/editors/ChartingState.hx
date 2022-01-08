@@ -81,7 +81,6 @@ class ChartingState extends MusicBeatState
 		['Set P1 Mania', "Value 1: The Mania Value (not the amount of keys, \nso 0 = 4k, 1 = 6k, 2 = 9k, 3 = 5k, 4 = 7k, \n5 = 8k, 6 = 1k, 7 = 2k, 8 = 3k)\n WARNING: the song has to be set to 9k to work!"],
 		['Set P2 Mania', "Value 1: The Mania Value (not the amount of keys, \nso 0 = 4k, 1 = 6k, 2 = 9k, 3 = 5k, 4 = 7k, \n5 = 8k, 6 = 1k, 7 = 2k, 8 = 3k)\n WARNING: the song has to be set to 9k to work!"]
 	];
-	];
 
 	var _file:FileReference;
 
