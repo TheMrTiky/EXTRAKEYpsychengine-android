@@ -49,7 +49,7 @@ class CreditsState extends MusicBeatState
 			['Psych Engine Android Port'],
 			['M.A. Jigsaw',		    'majigsaw',		    'Main Coder of The Port',	 'https://www.youtube.com/channel/UC2Sk7vtPzOvbVzdVTWrribQ',	'0xFFC30085'],
 			['Extra Keys Android Port'],
-			['MarioMaster',		    'mariomaster',		    'Port EK to Psych Engine Android',	 'https://www.youtube.com/channel/UC2Sk7vtPzOvbVzdVTWrribQ',	'0xFFC30085'],
+			['MarioMaster',		    'mariomaster',		    'Port EK to Psych Engine Android',	 'https://www.youtube.com/c/MarioMaster1997/featured',	'0xFFD10616'],
 			[''],
 			['Extra Keys Port'],
 		        ['TheZoroForce240', 'zoro', 'Ported the mod to Psych Engine', 'https://www.youtube.com/channel/UCjXs9mcE531CrmaQrf0OkOw', '0xFF0056FF'],
