@@ -46,11 +46,12 @@ class CreditsState extends MusicBeatState
 		add(grpOptions);
 
 		var pisspoop = [ //Name - Icon name - Description - Link - BG Color
-			['Psych Engine Android Port'],
-			['M.A. Jigsaw',		    'majigsaw',		    'Main Coder of The Port',	 'https://www.youtube.com/channel/UC2Sk7vtPzOvbVzdVTWrribQ',	'0xFFC30085'],
 			['Extra Keys Android Port'],
 			['MarioMaster',		    'mariomaster',		    'Port EK to Psych Engine Android',	 'https://www.youtube.com/c/MarioMaster1997/featured',	'0xFFD10616'],
-			[''],
+			['Mr Tiky',		    'mrtiky',		    'The helper of port and the spriter.',	 'https://m.youtube.com/channel/UCfvw4vqGD-RqvXP1tkH-tFA',	'0xFFC30085'],
+			['Sirox',		    'sirox',		    'The fixer of input.',	 'https://m.youtube.com/channel/UCqp6FttWJlp67vHT8n-_uKw',	'0xFFC30085'],
+			['Psych Engine Android Port'],
+			['M.A. Jigsaw',		    'majigsaw',		    'Main Coder of The Port',	 'https://www.youtube.com/channel/UC2Sk7vtPzOvbVzdVTWrribQ',	'0xFFC30085'],
 			['Extra Keys Port'],
 		        ['TheZoroForce240', 'zoro', 'Ported the mod to Psych Engine', 'https://www.youtube.com/channel/UCjXs9mcE531CrmaQrf0OkOw', '0xFF0056FF'],
 		        ['srPerez', 'perez', 'Original code for extra keys, arrow designs and colors', 'https://twitter.com/NewSrPerez', '0xFFFF9E00'],
